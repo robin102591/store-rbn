@@ -1,6 +1,6 @@
 "use server";
 
-import { UploadFileProps } from "@/types";
+import { DeleteFileProps, FileType, GetFilesProps, RenameFileProps, UpdateFileUsersProps, UploadFileProps } from "@/types";
 import { ID, Models, Query } from "node-appwrite";
 import { InputFile } from "node-appwrite/file";
 import { createAdminClient, createSessionClient } from "../appwrite";

@@ -29,6 +29,7 @@ import { useState } from "react";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { FileDetails, ShareInput } from "./ActionsModalContent";
+import { ActionType } from "@/types";
 
 export const ActionDropdown = ({ file }: { file: Models.Document }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
